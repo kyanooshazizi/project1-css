@@ -1,0 +1,564 @@
+@import url(reset.css);
+@import url(font.css);
+html,body{
+    scroll-behavior: smooth;
+}
+
+.continear{
+    direction: rtl;
+    max-width: 95%;
+    margin:0px auto ;
+}
+header {
+    background-color: seashell;
+    box-shadow: 0px 5px 20px rgba(0, 0,0, 0.1);
+    height: 80px;
+    border-radius:0px 0px 30px 30px;
+    padding: 10px 20px 10px 0px;
+}
+
+.site-info{
+    align-items: center;
+    display: inline-flex;
+
+}
+.site-info h3{
+    padding: 10px;
+    margin: auto 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+.phone{
+    background-color:white;
+    width: 110px;
+    float: left;
+    margin: 20px 10px;
+    border-radius: 10px 10px;
+    border: 2px solid #5a90f9;
+    padding: 5px;
+    color: #5a90f9;
+    transition: all ease 0.5s;
+
+}
+.phone:hover{
+    background-color: #5a90f9;
+    color: white;
+}
+.icone{
+    float: left;
+    margin: 20px 5px;
+    color:white;
+}
+.icone .sh{
+    background-color:green;
+    padding: 12px;
+    border-radius:100%;
+}
+.icone .u{
+    background-color:red;
+    padding: 12px;
+    border-radius:100%;
+    margin: auto 5px;
+}
+.meno{
+    float: left;
+    margin: 30px 30px;
+     
+}
+.meno ul li{
+    display: inline;
+    border:1px solid red;
+    padding: 5px 20px;
+    border-radius: 40%;
+    position: relative;
+    margin: 20px;
+    background-color: blue;
+    color: white;
+   
+}
+.meno ul li ul{
+    position: absolute;
+    float: left;
+    display: none;
+
+}
+
+.top-header{
+    margin: 30px;
+    display:grid;
+    grid-template-columns:60% 40%;
+    direction: ltr;
+    align-items: center;
+
+}
+.top-text{
+   
+    direction: rtl;
+    margin-right: 20px; 
+}
+.a{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    transition: all ease 0.2s;
+    
+   
+}
+.a:hover{
+    background-color:white;
+    color: blue;
+    border:1px solid blue;
+}
+.sub-form{
+    width: 95%;
+    height: 200px;
+    margin: 10px ;
+    background-color:white;
+    box-shadow:0px 20px 20px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.one-form{
+    margin-bottom: 50px;
+    font-size: 20px;
+    background-color: wheat;
+    width: 300px;
+}
+.fo-form{
+    display: inline;
+    margin: 0px 10px;
+    position: relative;
+   
+    
+    
+}
+.fo-form input{
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px 30px 8px 0px;
+
+}
+.s-mit{
+    margin-right: 100px;
+    background-color: blue;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+.fo-form .fa-user{
+    position: absolute;
+    right:15%;
+    bottom: 10%; 
+    color: darkgray; 
+}
+.fo-form .fa-phone{
+    position: absolute;
+    right:30%;
+    bottom: 10%; 
+    color: darkgray; 
+}
+input:focus{
+    background-color:rgb(228, 228, 204);
+    border-color: blue;
+    box-shadow:0px 0px 20px 0px blue;
+}
+
+
+.mini{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    text-align: center;
+    direction: ltr;
+    margin-top: 10px;
+    background-color: #f9f1f9;
+    margin-bottom: 20px;
+
+}
+.mi{
+    margin: 10px;
+}
+.result{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;  
+}
+.result-img{
+    padding: 10px;
+}
+.result-text{
+    padding: 10px;
+    direction: ltr;
+}
+.result-text button{
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.result-text button:hover{
+    background-color: white;
+    color: blue;
+}
+/*news*/
+.news{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:#f9f1f9;
+    height:300px ;
+
+}
+.news-a{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 50px;
+
+}
+.news-a p{
+
+}
+
+.news h2{
+    font-size: 36px;
+}
+.news-b{
+    margin-right:50px; 
+    margin-top: 50px;
+}
+h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.a2{
+    background-color: rgb(219, 176, 145);
+    width: 350px;
+    height:80px;
+    position: relative;
+    border-radius:10px 10px 10px 10px;
+}
+.a2 p{
+    position: absolute;
+    top:40%;
+    left:40%
+}
+.a3{
+    background-color: white;
+    width: 350px;
+    height:80px;
+    position: relative;
+    border-radius:10px 10px 10px 10px;
+}
+#pt{
+    color:sandybrown;
+}
+/*footer*/
+
+.footer{
+    background-color: #35426d;
+    display: grid;
+    grid-template-columns:33% 33% 34%;
+    margin-bottom: 20px;
+    height: 400px;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+h2{
+    font-size: 24px;
+    margin: 10px;
+}
+li{
+    color:whitesmoke;
+}
+.footer2 span{
+    color:#f5f5f5;
+}
+.fot11 li{
+    margin: 20px;
+}
+.fot12{
+    margin-top: 60px;
+    margin-right: -133px;
+}
+.fot12 li{
+    margin: 20px;
+}
+.footer3 img{
+    margin: 20px 20px 10px 20px;
+    display: inline-block;
+    width: 80%;
+
+}
+hr{
+    margin: 10px 60px;
+    
+}
+h5{
+    margin: 48px -422px;
+    color: whitesmoke;
+
+}
+.go-to-top{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.go-to-top img{
+    width: 40px;
+}
+/*repansive heeder*/
+.res-p{
+    float:left;
+    margin: 20px 5px;
+    display: none;
+}
+
+.fa-chevron-circle-down{
+background-color:firebrick;
+border-radius:100%;
+position: relative;
+padding: 12px;
+color: white;
+}
+
+.res-p ul{
+    display: none;
+
+}
+
+.res-p ul li{
+    color:#fff;
+    border: 1px solid;
+    border-radius: 10px;
+    margin:2px;
+    padding: 5px;
+    background-color: blue;
+}
+.res-p:hover ul{
+    display:inline;
+}
+.res-p ul li:hover{
+    background-color: crimson;
+}
+@media only screen and (max-width:1000px){
+    /* هدر*/
+    .meno{
+     display: none;
+ }
+ .res-p{
+     display: inline;
+ }
+ .site-info{
+    align-items: center;
+    display: inline-flex;
+    width:10%;
+
+}
+.site-info h3{
+    padding: 5px;
+    margin: auto 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 10px;
+}
+
+
+.phone{
+    background-color:white;
+    width:25%;
+    float: left;
+    margin: 10px 5px;
+    border-radius: 10px 10px;
+    border: 2px solid #5a90f9;
+    padding: 2px;
+    color: #5a90f9;
+    transition: all ease 0.5s;
+    font-size: 10px;
+
+}
+
+.icone{
+    float: left;
+    margin: 10px 2px;
+    color:white;
+}
+.icone .sh{
+    padding: 5px;
+}
+.icone .u{
+    padding: 5px;
+    
+}
+.fa-chevron-circle-down{
+    padding: 5px;
+    top:-10px;
+    }
+    
+
+
+/*tog main*/
+.top-header {
+    display:block;
+    direction: ltr;
+
+}
+.top-header img{
+   width: 80%;
+    margin:10px; 
+    display:block;
+}
+.top-header .top-text {
+    margin:5px auto 5px;
+}
+/*form*/
+.sub-form{
+    width: 95%;
+    height: 300px;
+    margin: 10px ;
+    
+}
+
+.fo-form{
+    display: block;
+    margin: 10px 10px;
+    position: relative;
+   
+    
+    
+}
+.fo-form input{
+    border-radius: 5px;
+    padding: 8px 30px 8px 0px;
+
+}
+.s-mit{
+    margin-right: 100px;
+    background-color: blue;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 5px;
+    font-size:20px;
+}
+.fo-form .fa-user{
+    position: absolute;
+    right:7%;
+    bottom: 40%; 
+    color: darkgray; 
+}
+.fo-form .fa-phone{
+    position: absolute;
+    right:17%;
+    bottom: 40%; 
+    color: darkgray; 
+}
+/*وسط سایت*/
+.mini{
+    display:block;
+}
+/*مشاهده گالری*/
+.result{
+    display:block;
+    text-align:center;
+}
+
+.result-img img{
+
+    width: 80%;
+}
+
+}
+
+.result-text{
+    padding: 10px;
+    text-align: justify;
+}
+.result-text button{
+    margin-left:40%;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    direction: rtl; 
+}
+/*درباره دکتر*/
+.news{
+    display: grid;
+    grid-template-columns:100%;
+    background-color:#f9f1f9;
+    height:750px ;
+
+}
+.news-a{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 15px;
+
+}
+.news-a img{
+    width: 80%;
+}
+.news-a p{
+    font-size: 14px;
+}
+.news-b{
+    margin-right:50px; 
+    margin-top:1px;
+}
+.a2,.a3{
+    width: 80%;
+}
+/*footer*/
+.footer{
+    display: grid;
+    grid-template-columns:100%;
+    margin-bottom: 20px;
+    height: 800px;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin:10px;
+}
+.f0t11,.fot12{
+    margin: 30px;
+}
+.footer2{
+    margin:20px;
+}
+
+.footer3{
+    margin: 20px auto 20px;
+
+}
+hr{
+    margin: 10px auto;
+    width: 80%;
+}
+h5{
+    margin: 20px;
+    color: whitesmoke;
+
+}
+.sub-form{
+    width: 95%;
+    
+}
+.one-form{
+    margin-bottom: 50px;
+    font-size: 15px;
+    background-color: wheat;
+    width: 90%;
+}
+
+}
+
+
+
+
